@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My calculate</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./script.js" type="text/javascript"></script>
+</head>
+<body>
+<div>
+    <h1>Welcome To My Calculate</h1>
+</div>
+<div >
+    <label for="number-field"></label><input id="number-field" type="text" readonly onchange="sum_output()">
+    <label for="calc-result">=</label><input id="calc-result" type="text" readonly>
+
+    <table id="calculator">
+
+        <tr>
+            <td><button id="button-7" class="calc-button" onclick="add_num_to_output(this.id)" >7</button></td>
+            <td><button id="button-8" class="calc-button" onclick="add_num_to_output(this.id)">8</button></td>
+            <td><button id="button-9" class="calc-button" onclick="add_num_to_output(this.id)">9</button></td>
+            <td><button id="button-plus" class="calc-button" onclick="add_num_to_output(this.id)">+</button></td>
+        </tr>
+        <tr>
+            <td><button id="button-4" class="calc-button" onclick="add_num_to_output(this.id)">4</button></td>
+            <td><button id="button-5" class="calc-button" onclick="add_num_to_output(this.id)">5</button></td>
+            <td><button id="button-6" class="calc-button" onclick="add_num_to_output(this.id)">6</button></td>
+            <td><button id="button-minus" class="calc-button" onclick="add_num_to_output(this.id)">-</button></td>
+        </tr>
+        <tr>
+            <td><button id="button-1" class="calc-button" onclick="add_num_to_output(this.id)">1</button></td>
+            <td><button id="button-2" class="calc-button" onclick="add_num_to_output(this.id)">2</button></td>
+            <td><button id="button-3" class="calc-button" onclick="add_num_to_output(this.id)">3</button></td>
+            <td><button id="button-times" class="calc-button" onclick="add_num_to_output(this.id)">*</button></td>
+        </tr>
+        <tr>
+            <td><button id="button-0" class="calc-button" onclick="add_num_to_output(this.id)">0</button></td>
+            <td><button id="button-recall" class="calc-button" onclick="add_num_to_output(this.id)">Recall</button></td>
+            <td><button id="button-delete" class="calc-button" onclick="add_num_to_output(this.id)">delete</button></td>
+            <td><button id="button-divide" class="calc-button" onclick="add_num_to_output(this.id)">/</button></td>
+        </tr>
+    </table>
+
+
+</div>
+</body>
+</html>

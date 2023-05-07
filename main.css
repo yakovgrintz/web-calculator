@@ -1,0 +1,21 @@
+:root{
+    --button-width:60px;
+}
+#calculator{
+    background-color: cornsilk;
+}
+#calc-result{
+    width: calc(var(--button-width)*1.0);
+    color: black;
+}
+#number-field{
+    width: calc(var(--button-width)*3.0);
+    color: black;
+}
+
+.calc-button {
+    width: var(--button-width);
+    height: 60px;
+    font-size: calc(10px+ 2vw);
+    color: darkgray;
+}
